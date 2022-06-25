@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded',function(){
 
     //creating elements
     const value = addForm.querySelector('input[type="text"]').value;
-    const li = dpcument.createElement('li');
+    const li = document.createElement('li');
     const movieName = document.createElement('span');
     const deleteBtn = document.createElement('span');
     
